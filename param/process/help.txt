@@ -1,0 +1,5 @@
+geo_model: HMM, static
+geo_prior: uniform, network
+signal_type: RSS, SDM
+dedup_method: 1to1, pairs, trajectory
+lambda: expression, value or NA. It is use only for dedup_method=1to1, if NA argument Pii is used.

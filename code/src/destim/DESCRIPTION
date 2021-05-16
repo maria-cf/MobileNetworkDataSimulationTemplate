@@ -1,0 +1,16 @@
+Package: destim
+Type: Package
+Title: R package for mobile devices position estimation
+Version: 0.1.0
+Author: David Salgado <david.salgado.fernandez@ine.es>, Luis Sanguiao Sande <luis.sanguiao.sande@ine.es>
+Maintainer: Bogdan Oancea <bogdan.oancea@gmail.com>
+Description: R package for mobile devices position estimation
+License: GPL3, EUPL
+Imports: Rcpp, Matrix, raster, RColorBrewer, ggplot2
+LinkingTo: Rcpp, RcppEigen
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+Built: R 4.0.2; x86_64-apple-darwin17.0; 2021-03-03 13:46:48 UTC; unix

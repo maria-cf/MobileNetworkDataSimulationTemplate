@@ -1,0 +1,24 @@
+path_data <- '/Users/Maria/Desktop/Root/MobileNetworkDataSimulationTemplate/data'
+library(data.table)
+library(ggplot2)
+library(gganimate)
+
+msd.dt <- fread(file.path(path_data, 'msdTotal.dt.csv'), sep = ',')[
+  , V1 := NULL][
+    , model := NULL]
+
+
+cp_tp.dt <- dcast(msd.dt, formula = device + time + isDiagonal ~ method, value.var = 'cp_tp')
+setnames(cp_tp.dt, c('RSS', 'RSS_TA'), paste0('cp_tp', c('_RSS', '_RSS_TA')))
+devIDs <- unique(cp_tp.dt$device)
+devID <- devIDs[1:25]
+p <- ggplot(cp_tp.dt[device %chin% devID], aes(x = cp_tp_RSS / 250, y = cp_tp_RSS_TA / 250, color = isDiagonal)) +
+  geom_point(size = 2) +
+  geom_abline(slope = 1, intercept = 0) +
+  scale_x_continuous(limits = c(0, NA)) +
+  scale_y_continuous(limits = c(0, NA)) +
+  coord_fixed() +
+  theme_bw() +
+  transition_time(time) +
+  labs(title = "Time: {frame_time}", subtitle = paste0('Device: ', paste0(devID, collapse = ', ')))
+animate(p, duration = 45, fps=1)

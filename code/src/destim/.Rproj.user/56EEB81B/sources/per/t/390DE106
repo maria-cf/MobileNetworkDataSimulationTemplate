@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1617980828757.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "213|38|253|4|\n",
+    "hash" : "1077618140",
+    "id" : "390DE106",
+    "lastKnownWriteTime" : 1614111645,
+    "last_content_update" : 1618500689396,
+    "path" : "~/Desktop/Root/MobileNetworkDataSimulationTemplate/code/script/01-20.compute_postLocProb_vTA.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "165,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

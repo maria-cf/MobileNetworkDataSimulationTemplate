@@ -1,0 +1,22 @@
+version 0.5
+- migrated visualization functions to mobvis
+
+version 0.4.1
+- removed sp dependency
+- fixed a few minor bugs (see gitlab)
+
+version 0.4.0
+- renamed functions to comply with upcoming paper
+- made likelihood functions modular
+
+version 0.3.0
+- improved computation speed (migration dplyr -> data.table)
+
+version 0.2.0
+- improved terminology
+- improved dashboards
+- added timing advance
+
+version 0.1.0
+- initial version
+- part of ESSnet Big Data project on mobile phone data (WP5)

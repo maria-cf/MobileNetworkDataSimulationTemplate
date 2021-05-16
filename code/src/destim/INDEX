@@ -1,0 +1,34 @@
+HMM                     Class constructor for Hidden Markov models
+HMMrectangle            Basic HMM grid model.
+addconstraint           Adds constraints to the model.
+addtransition           Adds a transition to the model.
+constraints             Matrix of constraints.
+createEM                Creates the events matrix.
+destim                  A package for mobile devices position
+                        estimation using HMM.
+emissions               Emissions matrix
+emissions<-             Set the emissions of the model
+fit                     Fits a HMM model
+fstates                 This function returns the filtered states
+                        whenever an observation is present and
+                        predicted states otherwise.
+getTC                   Gets the column of the transition matrix.
+getTM                   Transition matrix.
+gettransmatrix          Transformation matrix
+initparams              Initializer for HMM objects
+initsteady              Sets the initial state to the steady state
+istates                 Initial state probabilities.
+istates<-               Set the initial states
+logLik                  Minus logLikelihood
+minparams               Reparametrizes a HMM model with a minimal set
+                        of parameters.
+nconstraints            Number of constraints.
+nstates                 Number of states.
+ntransitions            Number of transitions.
+ptransition             Probabilities of transition.
+rparams                 Reduced parameters.
+rparams<-               Set reduced parameters
+scpstates               Returns xi like in the Baum-Welch algorithm.
+setsnames<-             Set the names of the states.
+sstates                 Smooth states
+transitions             Transitions.

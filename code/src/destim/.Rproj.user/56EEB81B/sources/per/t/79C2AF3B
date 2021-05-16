@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1618697564622.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "79C2AF3B",
+    "lastKnownWriteTime" : 4294967296,
+    "last_content_update" : 1618697564622,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "8BD7F4AA",
+        "caption" : "msd.dt",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=msd.dt&cache_key=8BD7F4AA",
+        "displayedObservations" : "18382",
+        "environment" : "",
+        "expression" : "msd.dt",
+        "object" : "msd.dt",
+        "preview" : "0",
+        "totalObservations" : "18382",
+        "variables" : "7"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,39 @@
+Package: mobloc
+Type: Package
+Title: Mobile phone location algorithms and tools
+Version: 0.5
+Authors@R: c(person("Martijn", "Tennekes", email="mtennekes@gmail.com", role=c("aut", "cre")),
+             person("Yvonne", "Gootzen", email = "y.a.p.m.gootzen@cbs.nl", role = "ctb"),
+             person("Shan", "Shah", email = "s.h.shan@cbs.nl", role = "ctb"))
+Description: CDR and signalling data contain mobile phone events logged at specific cells (antennae). This package provides algorithms and tools to translate antennae properties to gespatial distributions. Depending on the availability of the antenna properties, such as coordinates, direction, and height, different algorithms can be used.
+License: EUPL
+LazyData: true
+Date: 2020-08-17
+Depends:
+    R (>= 3.5)
+Imports:
+    methods,
+    stats,
+    graphics,
+    sf (>= 0.6-3),
+    RColorBrewer,
+    shiny,
+    shinyjs,
+    data.table,
+    magrittr,
+    parallel,
+    doParallel,
+    foreach,
+    ggplot2,
+    gridExtra,
+    leaflet,
+    raster
+Suggests:
+    lwgeom,
+	rmarkdown,
+    knitr,
+    tmap
+URL: https://github.com/MobilePhoneESSnetBigData/mobloc
+BugReports: https://github.com/MobilePhoneESSnetBigData/mobloc/issues
+VignetteBuilder: knitr
+RoxygenNote: 7.1.1

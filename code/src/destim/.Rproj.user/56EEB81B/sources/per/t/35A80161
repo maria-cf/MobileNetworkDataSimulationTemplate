@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1617983403873.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "298551471",
+    "id" : "35A80161",
+    "lastKnownWriteTime" : 1604673366,
+    "last_content_update" : 1618442626989,
+    "path" : "~/Desktop/Root/MobileNetworkDataSimulationTemplate/code/src/compute_HMM.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "90,25",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

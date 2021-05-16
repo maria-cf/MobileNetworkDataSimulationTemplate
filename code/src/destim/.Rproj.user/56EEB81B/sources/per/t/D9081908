@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1618498241839.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2861997847",
+    "id" : "D9081908",
+    "lastKnownWriteTime" : 1618873707,
+    "last_content_update" : 1621032166518,
+    "path" : "~/Desktop/Root/MobileNetworkDataSimulationTemplate/code/script/01-50.analyse_geolocation_vTA.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "139,0",
+        "scrollLine" : "130"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

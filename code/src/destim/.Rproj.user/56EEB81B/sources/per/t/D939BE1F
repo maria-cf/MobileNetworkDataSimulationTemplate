@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1618328531423.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1266456966",
+    "id" : "D939BE1F",
+    "lastKnownWriteTime" : 1618431047,
+    "last_content_update" : 1618431047760,
+    "path" : "~/Desktop/Root/MobileNetworkDataSimulationTemplate/code/script/01-10.compute_emissionProb_vTA.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "46,53",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 12,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

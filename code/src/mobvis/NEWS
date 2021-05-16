@@ -1,0 +1,10 @@
+version 0.1.0
+- initial version
+
+version 0.1.1
+- set up standard data folder structure
+- change reading functions accordingly
+- update vignettes accordingly
+
+version 0.1.2
+- update sim_get_prob for more general probs
