@@ -122,7 +122,6 @@ msd.dt[
 ####  ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ####
 ####              PLOT DISTRIBUTIONS of b, rmsd AND msd                     ####
 #### ** Bias                                                                ####
-#He modificado a partir de aquí
 msdTotal.dt = rbind(msd.dt,msdTA.dt)
 msd_nonDiagonalTotal.dt = rbind(msd_nonDiagonal.dt,msdTA_nonDiagonal.dt)
 
@@ -173,7 +172,7 @@ ggplot(data = msd_nonDiagonalTotal.dt,
         legend.title = element_text(size = 14), legend.text = element_text(size = 12),
         legend.position = 'none')
 
-#En el siguiente plot no sé si dividir los devices en grupos o graficarlos todos "de una vez"
+#El siguiente plot se puede dividir los devices en grupos o graficarlos todos "de una vez"
 # ggplot(msd.dt[device<=100], aes(x = as.character(device), y = cp_tp / tile_size, group = device)) +
 #   geom_boxplot(aes(fill = model)) +
 #   facet_grid(model ~ . ) +
